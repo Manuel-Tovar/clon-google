@@ -212,4 +212,18 @@ main .main-input input {
     }
 }
 
+@media (max-width: 420px) {
+    main .main-buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 420px) {
+    main .main-buttons input{
+        margin: 4px;
+    }
+}
+
 
